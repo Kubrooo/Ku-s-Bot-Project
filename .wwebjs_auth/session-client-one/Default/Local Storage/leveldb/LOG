@@ -1,0 +1,15 @@
+2024/09/09-11:30:50.303 5008 Reusing MANIFEST C:\Users\Zyrex\Documents\Ku's Bot Project\.wwebjs_auth\session-client-one\Default\Local Storage\leveldb/MANIFEST-000001
+2024/09/09-11:30:50.317 5008 Recovering log #108
+2024/09/09-11:30:50.317 5008 Reusing old log C:\Users\Zyrex\Documents\Ku's Bot Project\.wwebjs_auth\session-client-one\Default\Local Storage\leveldb/000108.log 
+2024/09/09-11:32:56.040 f2c Level-0 table #112: started
+2024/09/09-11:32:56.045 f2c Level-0 table #112: 14096 bytes OK
+2024/09/09-11:32:56.046 f2c Delete type=0 #108
+2024/09/09-11:32:56.047 f2c Compacting 4@0 + 1@1 files
+2024/09/09-11:32:56.049 f2c Generated table #113@0: 72 keys, 6380 bytes
+2024/09/09-11:32:56.049 f2c Compacted 4@0 + 1@1 files => 6380 bytes
+2024/09/09-11:32:56.050 f2c compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/09/09-11:32:56.050 f2c Delete type=2 #101
+2024/09/09-11:32:56.050 f2c Delete type=2 #104
+2024/09/09-11:32:56.050 f2c Delete type=2 #106
+2024/09/09-11:32:56.050 f2c Delete type=2 #109
+2024/09/09-11:32:56.050 f2c Delete type=2 #112

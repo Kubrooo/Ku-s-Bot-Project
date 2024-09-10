@@ -1,0 +1,16 @@
+{
+  "name": "kubrosbot",
+  "version": "1.0.0",
+  "main": "openwa.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kubrooo",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "openai": "^4.57.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.25.0"
+  }
+}
