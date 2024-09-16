@@ -112,7 +112,7 @@ client.on('ready', () => {
 client.on('message', async message => {
     const commands = {
         'ku, info': {
-            filePath: './banner.jpeg',
+            filePath: './resource_media/banner.jpeg',
             caption: `Ku's Bot Toram Menu 😁👍
 
 ⭕Ku, ada member baru nih
@@ -126,11 +126,13 @@ client.on('message', async message => {
 ⭕Ku, farm mats
 ⭕Ku, scammer
 ⭕Ku, donasi
+⭕Ku, consume dte
+⭕Ku, consume support
 
 Catatan : Bot masih dalam proses pengembangan jadi mohon dimaklumi bila ada bug terimakasi.😊🙌`
         },
         'ku, foodbuff': {
-            filePath: './banner.jpeg',
+            filePath: './resource_media/banner.jpeg',
             caption: `Ku's Bot Foodbuff Code Services😁👍
 
 ⭕Ku, buff mp
@@ -162,7 +164,7 @@ command 'Ku, buff mp' untuk menampilkan code mp, begitupula code yang lain tanpa
 command Ku, foodbuff`
         },
         'ku, pet menu': {
-            filePath: './banner.jpeg',
+            filePath: './resource_media/banner.jpeg',
             caption: `Ku's Bot Pet Building Information Services😁👍
 
 ⭕Ku, potensi pet
@@ -173,7 +175,7 @@ command Ku, foodbuff`
 Semangat build pet nya ya kak😁👍`
         },
         'ku, blacksmith': {
-            filePath: './banner.jpeg',
+            filePath: './resource_media/banner.jpeg',
             caption: `Ku's Bot Blacksmithing Information Services😁👍
 
 ⭕Ku, lvling prof 'level prof kalian'
@@ -183,7 +185,7 @@ Semangat build pet nya ya kak😁👍`
 Woah ada yang ingin jadi murid zaldo, semangat leveling prof nya ya kak😁👍`
         },
         'ku, bahanmq': {
-            filePath: './banner.jpeg',
+            filePath: './resource_media/banner.jpeg',
             caption: `Ku's Bot Main Quest Item Information Services😁👍
 
 Daun Colon 5 pcs
@@ -246,7 +248,7 @@ Batu Jabali 5 pcs
 Semangat mainquest nya ya kak, saran jangan langsung di habisin sih 😁👍`
         },
         'ku, upkoleksi': {
-            filePath: './banner.jpeg',
+            filePath: './resource_media/banner.jpeg',
             caption: `Ku's Bot Upgrade Collection Bag Information Services😁👍
 
 *50-51*
@@ -463,7 +465,7 @@ Semangat mainquest nya ya kak, saran jangan langsung di habisin sih 😁👍`
 - Kulit Pelik x30 (Mata Jahat; Padang Morga: Area 1)`
         },
         'ku, scammer': {
-            filePath: './banner.jpeg',
+            filePath: './resource_media/banner.jpeg',
             caption: `Ku's Bot Scammer List Warning!!!
 
 *IGN SCAMMER*
@@ -502,7 +504,7 @@ Semangat mainquest nya ya kak, saran jangan langsung di habisin sih 😁👍`
 Woah hati hati ya semua apalagi kalau mau RMT pastikan RMT sama yang terpercaya ajah😁👍`
         },
         'ku, farm mats': {
-            filePath: './banner.jpeg',
+            filePath: './resource_media/banner.jpeg',
             caption: `Ku's Bot Farming Mats Information Services😁👍
 
 ⭕Ku, farm logam'
@@ -1209,6 +1211,9 @@ client.on('message', async message => {
             mediaPath = './resource_media/toram_online_smithing_success_rate.png';
             caption = 'Tabel success rate smithing menggunakan beberapa jenis ore';
             break;
+        case 'ku, foodbuff lvling':
+            mediaPath = './resource_media/lvlingFoodBuff.jpeg';
+            caption = 'Jangan lupa siram tanaman buat bahan masak^^'
         default:
             return; // Do nothing if the message doesn't match
     }
@@ -1499,7 +1504,7 @@ client.on('message', message => {
 });
 
 client.on('message', message =>{
-    if(message.body.toLocaleLowerCase() === 'ku, cp'){
-        message.reply('Ga makasih\nTYPT Guild Call')
+    if(message.body.toLocaleLowerCase() === 'ku, buy cp'){
+        message.reply('STRESS JIG')
     }
 })

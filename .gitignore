@@ -1,4 +1,4 @@
 node_modules
 .wwebjs_cache
-.wwebjs_auth\session-client-one
+.wwebjs_auth
 package-lock.json
